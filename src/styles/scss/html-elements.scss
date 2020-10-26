@@ -1,0 +1,33 @@
+/* para los elementos html */
+.input {
+    background-color: transparent;
+    border-left: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 2px solid $white;
+    font-family: $font-family;
+    font-size: 16px;
+    margin-bottom: 20px;
+    padding: 0px 20px;
+    outline: none;
+    height: 50px;
+}
+::placeholder {
+    color: $white;
+}
+.button {
+    background-color: rgba(49, 78, 82, 0.25);
+    border: none;
+    border-radius: 25px;
+    color: $white;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: $font-family;
+    height: 50px;
+    letter-spacing: 1px;
+    margin: 10px 0px;
+}
+.button:hover {
+    background-color: #3f5a61;
+}

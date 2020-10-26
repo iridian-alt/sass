@@ -1,0 +1,31 @@
+/* se define el header footer y contenido */
+body {
+    margin: 0;
+    font-family: $font-family;
+    background-image: $background-image;
+    background-repeat: no-repeat;   
+    background-size: cover;
+}
+.header {
+    @include header-layout;
+    
+    &__img {
+        margin-left: $thirty;
+        width: 200px;
+    }
+}
+
+
+.footer {
+    @include footer-section; 
+}
+.footer a {
+    @include footer-a;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+
+
